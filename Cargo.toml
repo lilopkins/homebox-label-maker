@@ -1,8 +1,13 @@
 [package]
 name = "homebox-label-maker"
 description = "Create custom label sheets from a Homebox instance"
+repository = "https://github.com/lilopkins/homebox-label-maker"
+authors = [
+    "Lily Hopkins <lily@hpkns.uk>",
+]
 version = "0.1.0"
 edition = "2024"
+license = "MIT"
 publish = false
 
 [dependencies]
