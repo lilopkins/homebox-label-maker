@@ -1,0 +1,26 @@
+@media print {
+    .no-print {
+        display: none;
+    }
+
+    html, body {
+        margin: 0;
+        padding: 0;
+    }
+}
+
+.page {
+    display: grid;
+    break-inside: avoid;
+    break-after: page;
+}
+
+.page > div {
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.page.alignment-test > div {
+    background-image: linear-gradient(aliceblue, rebeccapurple) !important;
+}
